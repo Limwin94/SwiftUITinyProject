@@ -17,6 +17,10 @@
 		AB8F20D02A41EDA1004F9966 /* AlignmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F20CF2A41EDA1004F9966 /* AlignmentListView.swift */; };
 		AB8F20D22A433C94004F9966 /* Alignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F20D12A433C94004F9966 /* Alignment+Extension.swift */; };
 		AB8F20D42A433FB0004F9966 /* AlignmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F20D32A433FB0004F9966 /* AlignmentRow.swift */; };
+		ABA134132A4C6A47001820AF /* HomeworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134122A4C6A46001820AF /* HomeworkListView.swift */; };
+		ABA134152A4C6A80001820AF /* ZStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134142A4C6A80001820AF /* ZStackContentView.swift */; };
+		ABA134182A4C6BC2001820AF /* HStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134172A4C6BC2001820AF /* HStackContentView.swift */; };
+		ABA1341A2A4DB678001820AF /* VerticalAlignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134192A4DB678001820AF /* VerticalAlignment+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		AB8F20CF2A41EDA1004F9966 /* AlignmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentListView.swift; sourceTree = "<group>"; };
 		AB8F20D12A433C94004F9966 /* Alignment+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alignment+Extension.swift"; sourceTree = "<group>"; };
 		AB8F20D32A433FB0004F9966 /* AlignmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentRow.swift; sourceTree = "<group>"; };
+		ABA134122A4C6A46001820AF /* HomeworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkListView.swift; sourceTree = "<group>"; };
+		ABA134142A4C6A80001820AF /* ZStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackContentView.swift; sourceTree = "<group>"; };
+		ABA134172A4C6BC2001820AF /* HStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackContentView.swift; sourceTree = "<group>"; };
+		ABA134192A4DB678001820AF /* VerticalAlignment+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerticalAlignment+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				AB8F20A72A41E1CF004F9966 /* ContentView.swift */,
-				AB8F20D92A434E72004F9966 /* Alignment */,
+				ABA134122A4C6A46001820AF /* HomeworkListView.swift */,
+				AB8F20D92A434E72004F9966 /* ZStackAlignment */,
+				ABA134162A4C6B9A001820AF /* HStackAlignment */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,17 +157,27 @@
 			isa = PBXGroup;
 			children = (
 				AB8F20D12A433C94004F9966 /* Alignment+Extension.swift */,
+				ABA134192A4DB678001820AF /* VerticalAlignment+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		AB8F20D92A434E72004F9966 /* Alignment */ = {
+		AB8F20D92A434E72004F9966 /* ZStackAlignment */ = {
 			isa = PBXGroup;
 			children = (
+				ABA134142A4C6A80001820AF /* ZStackContentView.swift */,
 				AB8F20CF2A41EDA1004F9966 /* AlignmentListView.swift */,
 				AB8F20D32A433FB0004F9966 /* AlignmentRow.swift */,
 			);
-			path = Alignment;
+			path = ZStackAlignment;
+			sourceTree = "<group>";
+		};
+		ABA134162A4C6B9A001820AF /* HStackAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				ABA134172A4C6BC2001820AF /* HStackContentView.swift */,
+			);
+			path = HStackAlignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +312,11 @@
 			files = (
 				AB8F20A82A41E1CF004F9966 /* ContentView.swift in Sources */,
 				AB8F20D02A41EDA1004F9966 /* AlignmentListView.swift in Sources */,
+				ABA134152A4C6A80001820AF /* ZStackContentView.swift in Sources */,
+				ABA134132A4C6A47001820AF /* HomeworkListView.swift in Sources */,
+				ABA134182A4C6BC2001820AF /* HStackContentView.swift in Sources */,
 				AB8F20A62A41E1CF004F9966 /* HomeworkApp.swift in Sources */,
+				ABA1341A2A4DB678001820AF /* VerticalAlignment+Extension.swift in Sources */,
 				AB8F20D22A433C94004F9966 /* Alignment+Extension.swift in Sources */,
 				AB8F20D42A433FB0004F9966 /* AlignmentRow.swift in Sources */,
 			);
