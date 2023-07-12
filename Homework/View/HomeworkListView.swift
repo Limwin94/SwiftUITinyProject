@@ -28,7 +28,8 @@ struct Homework: Identifiable {
 struct Homeworks {
     static let list: [Homework] = [
         .init(title: "Z Stack", view: { AnyView(ZStackContentView()) }),
-        .init(title: "H Stack", view: { AnyView(HStackContentView()) })
+        .init(title: "H Stack", view: { AnyView(HStackContentView()) }),
+        .init(title: "AppStoreContent", view: { AnyView(AppStoreContentView()) })
     ]
 }
 

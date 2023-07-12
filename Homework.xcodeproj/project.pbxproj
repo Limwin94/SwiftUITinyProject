@@ -21,6 +21,7 @@
 		ABA134152A4C6A80001820AF /* ZStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134142A4C6A80001820AF /* ZStackContentView.swift */; };
 		ABA134182A4C6BC2001820AF /* HStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134172A4C6BC2001820AF /* HStackContentView.swift */; };
 		ABA1341A2A4DB678001820AF /* VerticalAlignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA134192A4DB678001820AF /* VerticalAlignment+Extension.swift */; };
+		ABB5A5402A5EE046006FC159 /* AppStoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5A53F2A5EE046006FC159 /* AppStoreContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		ABA134142A4C6A80001820AF /* ZStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackContentView.swift; sourceTree = "<group>"; };
 		ABA134172A4C6BC2001820AF /* HStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackContentView.swift; sourceTree = "<group>"; };
 		ABA134192A4DB678001820AF /* VerticalAlignment+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerticalAlignment+Extension.swift"; sourceTree = "<group>"; };
+		ABB5A53F2A5EE046006FC159 /* AppStoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				ABA134122A4C6A46001820AF /* HomeworkListView.swift */,
 				AB8F20D92A434E72004F9966 /* ZStackAlignment */,
 				ABA134162A4C6B9A001820AF /* HStackAlignment */,
+				ABB5A53E2A5EDF58006FC159 /* StackExample */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,14 @@
 				ABA134172A4C6BC2001820AF /* HStackContentView.swift */,
 			);
 			path = HStackAlignment;
+			sourceTree = "<group>";
+		};
+		ABB5A53E2A5EDF58006FC159 /* StackExample */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5A53F2A5EE046006FC159 /* AppStoreContentView.swift */,
+			);
+			path = StackExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +330,7 @@
 				ABA1341A2A4DB678001820AF /* VerticalAlignment+Extension.swift in Sources */,
 				AB8F20D22A433C94004F9966 /* Alignment+Extension.swift in Sources */,
 				AB8F20D42A433FB0004F9966 /* AlignmentRow.swift in Sources */,
+				ABB5A5402A5EE046006FC159 /* AppStoreContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
