@@ -36,17 +36,6 @@ struct ListView: View {
     }
 }
 
-struct ListContentView: View {
-    var model: ListModel
-    
-    var body: some View {
-        VStack(alignment: .center) {
-            Text("\(model.id)")
-        }
-        .navigationBarTitleDisplayMode(.inline)
-    }
-}
-
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         ListView()

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0FF4B22A83CE0B0017F7C4 /* ScrollListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0FF4B12A83CE0B0017F7C4 /* ScrollListView.swift */; };
+		AB0FF4B42A83CE460017F7C4 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0FF4B32A83CE460017F7C4 /* ListContentView.swift */; };
+		AB0FF4B62A83CF530017F7C4 /* ScrollLazyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0FF4B52A83CF530017F7C4 /* ScrollLazyVStackView.swift */; };
+		AB0FF4B82A83D43B0017F7C4 /* ScrollVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0FF4B72A83D43B0017F7C4 /* ScrollVStackView.swift */; };
 		AB8F20A62A41E1CF004F9966 /* HomeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F20A52A41E1CF004F9966 /* HomeworkApp.swift */; };
 		AB8F20A82A41E1CF004F9966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F20A72A41E1CF004F9966 /* ContentView.swift */; };
 		AB8F20AA2A41E1D0004F9966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8F20A92A41E1D0004F9966 /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0FF4B12A83CE0B0017F7C4 /* ScrollListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollListView.swift; sourceTree = "<group>"; };
+		AB0FF4B32A83CE460017F7C4 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		AB0FF4B52A83CF530017F7C4 /* ScrollLazyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLazyVStackView.swift; sourceTree = "<group>"; };
+		AB0FF4B72A83D43B0017F7C4 /* ScrollVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollVStackView.swift; sourceTree = "<group>"; };
 		AB8F20A22A41E1CF004F9966 /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8F20A52A41E1CF004F9966 /* HomeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkApp.swift; sourceTree = "<group>"; };
 		AB8F20A72A41E1CF004F9966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +206,10 @@
 			isa = PBXGroup;
 			children = (
 				ABB5A5422A5EE976006FC159 /* ListView.swift */,
+				AB0FF4B12A83CE0B0017F7C4 /* ScrollListView.swift */,
+				AB0FF4B52A83CF530017F7C4 /* ScrollLazyVStackView.swift */,
+				AB0FF4B72A83D43B0017F7C4 /* ScrollVStackView.swift */,
+				AB0FF4B32A83CE460017F7C4 /* ListContentView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -337,11 +349,15 @@
 				ABA134152A4C6A80001820AF /* ZStackContentView.swift in Sources */,
 				ABA134132A4C6A47001820AF /* HomeworkListView.swift in Sources */,
 				ABA134182A4C6BC2001820AF /* HStackContentView.swift in Sources */,
+				AB0FF4B62A83CF530017F7C4 /* ScrollLazyVStackView.swift in Sources */,
 				AB8F20A62A41E1CF004F9966 /* HomeworkApp.swift in Sources */,
 				ABA1341A2A4DB678001820AF /* VerticalAlignment+Extension.swift in Sources */,
 				AB8F20D22A433C94004F9966 /* Alignment+Extension.swift in Sources */,
+				AB0FF4B42A83CE460017F7C4 /* ListContentView.swift in Sources */,
 				ABB5A5432A5EE976006FC159 /* ListView.swift in Sources */,
+				AB0FF4B22A83CE0B0017F7C4 /* ScrollListView.swift in Sources */,
 				AB8F20D42A433FB0004F9966 /* AlignmentRow.swift in Sources */,
+				AB0FF4B82A83D43B0017F7C4 /* ScrollVStackView.swift in Sources */,
 				ABB5A5402A5EE046006FC159 /* AppStoreContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

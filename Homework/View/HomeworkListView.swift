@@ -30,7 +30,9 @@ struct Homeworks {
         .init(title: "Z Stack", view: { AnyView(ZStackContentView()) }),
         .init(title: "H Stack", view: { AnyView(HStackContentView()) }),
         .init(title: "AppStoreContent", view: { AnyView(AppStoreContentView()) }),
-        .init(title: "List", view: { AnyView(ListView()) })
+        .init(title: "List", view: { AnyView(ListView()) }),
+        .init(title: "Scroll Lazy VStack View", view: { AnyView(ScrollLazyVStackView()) }),
+        .init(title: "Scroll VStack View", view: { AnyView(ScrollVStackView()) }),
     ]
 }
 
