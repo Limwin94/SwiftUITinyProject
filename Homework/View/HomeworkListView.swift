@@ -33,6 +33,8 @@ struct Homeworks {
         .init(title: "List", view: { AnyView(ListView()) }),
         .init(title: "Scroll Lazy VStack View", view: { AnyView(ScrollLazyVStackView()) }),
         .init(title: "Scroll VStack View", view: { AnyView(ScrollVStackView()) }),
+        .init(title: "Modal View", view: { AnyView(NavigateView()) }),
+        .init(title: "Tab View", view: { AnyView(FloatingTabView()) })
     ]
 }
 
